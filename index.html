@@ -98,7 +98,7 @@
         </div>
     </section>
 </body>
-<script type="text/javascript">      
+<script type="text/javascript">
 
     let button  = document.querySelector('.js-save');
     let form = document.querySelector('.js-form');
@@ -117,7 +117,7 @@
     });
 
     function postData(data) {
-        var url = 'https://labo03htmlwebservice.azurewebsites.net/api/v1/registrations';
+        var url = 'https://onlinelabomct.azurewebsites.net/api/v1/registrations';
 
         fetch(url, {
             method: 'POST', // or 'PUT'
@@ -129,7 +129,6 @@
             .then(response => console.log('Success:', JSON.stringify(response)))
             .catch(error => console.error('Error:', error));
     }
-
 
 </script>
 </html>
